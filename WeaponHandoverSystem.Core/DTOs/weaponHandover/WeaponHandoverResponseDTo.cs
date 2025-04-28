@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-
+using WeaponHandoverSystem.Core.Domain.Entities;
 namespace WeaponHandoverSystem.Core.DTOs.weaponHandover
 {
     public class WeaponHandoverResponseDTo
@@ -22,8 +22,8 @@ namespace WeaponHandoverSystem.Core.DTOs.weaponHandover
         {
             return new WeaponHandoverResponseDTo
             {
-                Id = weaponHandover.Id,
-                Name = weaponHandover.Name,
+                Id = weaponHandover.id,
+                Name = weaponHandover.name,
                 Type = weaponHandover.Type,
                 InDate = weaponHandover.InDate,
                 OutDate = weaponHandover.OutDate,

@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace WeaponHandoverSystem.Core.Domain.Entities
 {
     public class WeaponHandover
-    {   public string id { get; set; } // PK
+    {   public int id { get; set; } // PK
         public string name { get; set; }
         public string Type { get; set; }
        public DateTime InDate { get; set; }

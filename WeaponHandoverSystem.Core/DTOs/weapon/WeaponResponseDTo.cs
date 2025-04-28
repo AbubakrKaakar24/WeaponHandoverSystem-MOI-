@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-
+using WeaponHandoverSystem.Core.Domain.Entities;
 namespace WeaponHandoverSystem.Core.DTOs.weapon
 {
     public  class WeaponResponseDTo
