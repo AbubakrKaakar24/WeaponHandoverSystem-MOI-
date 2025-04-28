@@ -14,8 +14,7 @@ namespace WeaponHandoverSystem.Core.DTOs.officer
         public string Directorate { get; set; } // Directorate where the officer is stationed
         public string Administration { get; set; } // Administration where the officer is stationed
         public string BadgeNo { get; set; }
-        Officer officer = new Officer();
-        Officer toOfficer()
+        public Officer toOfficer()
         {
             return new Officer
             {
