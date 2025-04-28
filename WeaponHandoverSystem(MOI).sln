@@ -3,7 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.13.35931.197 d17.13
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WeaponHandoverSystem(MOI)", "WeaponHandoverSystem(MOI)\WeaponHandoverSystem(MOI).csproj", "{0FD94173-B536-4E67-A4C1-E1DA500B7318}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WeaponHandoverSystem(MOI).Presentation", "WeaponHandoverSystem(MOI)\WeaponHandoverSystem(MOI).Presentation.csproj", "{0FD94173-B536-4E67-A4C1-E1DA500B7318}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WeaponHandoverSystem.Core", "WeaponHandoverSystem.Core\WeaponHandoverSystem.Core.csproj", "{A437947F-BB69-48F3-8157-2D37314C1B80}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WeaponHandoverSystem.Infrastructure", "WeaponHandoverSystem.Infrastructure\WeaponHandoverSystem.Infrastructure.csproj", "{FCB959E0-F480-4E08-90BA-3FD0A3644BAD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,9 +21,22 @@ Global
 		{0FD94173-B536-4E67-A4C1-E1DA500B7318}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0FD94173-B536-4E67-A4C1-E1DA500B7318}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0FD94173-B536-4E67-A4C1-E1DA500B7318}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A437947F-BB69-48F3-8157-2D37314C1B80}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A437947F-BB69-48F3-8157-2D37314C1B80}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A437947F-BB69-48F3-8157-2D37314C1B80}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A437947F-BB69-48F3-8157-2D37314C1B80}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FCB959E0-F480-4E08-90BA-3FD0A3644BAD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FCB959E0-F480-4E08-90BA-3FD0A3644BAD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FCB959E0-F480-4E08-90BA-3FD0A3644BAD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FCB959E0-F480-4E08-90BA-3FD0A3644BAD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{0FD94173-B536-4E67-A4C1-E1DA500B7318} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{A437947F-BB69-48F3-8157-2D37314C1B80} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{FCB959E0-F480-4E08-90BA-3FD0A3644BAD} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {80A87C98-2365-492C-A9ED-7A0AAF64CA79}
