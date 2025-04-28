@@ -1,0 +1,6 @@
+@WeaponHandoverSystem_MOI__HostAddress = http://localhost:5290
+
+GET {{WeaponHandoverSystem_MOI__HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

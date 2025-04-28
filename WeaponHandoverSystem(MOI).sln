@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35931.197 d17.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WeaponHandoverSystem(MOI)", "WeaponHandoverSystem(MOI)\WeaponHandoverSystem(MOI).csproj", "{0FD94173-B536-4E67-A4C1-E1DA500B7318}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0FD94173-B536-4E67-A4C1-E1DA500B7318}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0FD94173-B536-4E67-A4C1-E1DA500B7318}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0FD94173-B536-4E67-A4C1-E1DA500B7318}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0FD94173-B536-4E67-A4C1-E1DA500B7318}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {80A87C98-2365-492C-A9ED-7A0AAF64CA79}
+	EndGlobalSection
+EndGlobal
